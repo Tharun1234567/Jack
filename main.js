@@ -64,7 +64,7 @@ function my_keydown(e)
 
 function up()
 {
-	if(greencar_y >=0) 
+	if(greencar_y >=38) 
 	{
 		greencar_y = greencar_y - 10;
 		console.log("When up arrow is pressed, x = " + greencar_x + " | y =" +greencar_y);
@@ -75,7 +75,7 @@ function up()
 
 function down()
 {
-    if(greencar_y >=0)
+    if(greencar_y >=40)
 	{
 		greencar_y = greencar_y - 10;
 		console.log("When down arrow is pressed, x = " + greencar_x + " | y =" +greencar_y);
@@ -83,10 +83,10 @@ function down()
 		uploadgreencar();
 	}
 }
-
+38
 function left()
 {
-	if(greencar_y >=0)
+	if(greencar_y >=37)
 	{
 		greencar_y = greencar_y - 10;
 		console.log("When left arrow is pressed, x = " + greencar_x + " | y =" +greencar_y);
@@ -96,7 +96,7 @@ function left()
 }
 function right()
 {
-	if(greencar_y >=0)
+	if(greencar_y >=38)
 	{
 		greencar_y = greencar_y - 10;
 		console.log("When right arrow is pressed, x = " + greencar_x + " | y =" +greencar_y);
